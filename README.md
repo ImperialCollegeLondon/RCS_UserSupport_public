@@ -6,6 +6,7 @@ collating bits and pieces for a more effective support to 21st century users
 Please refer to the following pages to read more about the main software and applications we provide  
 and how to obtain more info if you have access to Imperial College HPC Services.
 
+[check HPC Services Status](/Service_Status.md)
 
 ---
 
