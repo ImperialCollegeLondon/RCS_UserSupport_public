@@ -88,3 +88,35 @@ Refer to :
 please note that the attached video is quite old and the process may not be entirely correct there.
 
 
+
+[TESTING /DRAFT]
+
+
+IMG5
+
+test01
+![00005](assets/images/00005.png)
+
+test02
+![00005](/assets/images/00005.png)
+
+test03
+![00005](/assets/00005.png)
+
+test04
+![00005](/../assets/images/00005.png)
+
+
+IMG6
+
+test01
+![00006](assets/images/00006.png)
+
+test02
+![00006](/assets/images/00006.png)
+
+test03
+![00006](/assets/00006.png)
+
+test04
+![00006](/../assets/images/00006.png)
