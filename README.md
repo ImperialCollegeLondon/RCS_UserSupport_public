@@ -20,7 +20,7 @@ and how to obtain more info if you have access to Imperial College HPC Services.
 
 [Training pages](https://www.imperial.ac.uk/admin-services/ict/self-service/research-support/rcs/training/)
 
-[Training PDF](https://imperialcollegelondon.app.box.com/s/4ohpl9tr172anl7usfd1l4y9rqbi0dmw)
+[Training PDF](https://imperialcollegelondon.app.box.com/s/4ohpl9tr172anl7usfd1l4y9rqbi0dmw)  -- kindly provided by: [Dr. Katerina Michalickova](https://www.imperial.ac.uk/collegedirectory/index.asp?PeopleID=215926)  
 
 
 [RCS - HPC Applications](https://www.imperial.ac.uk/admin-services/ict/self-service/research-support/rcs/support/applications/)
@@ -52,3 +52,5 @@ and how to obtain more info if you have access to Imperial College HPC Services.
 --------------------------------------------------------------------------------------------------------------------------------------------
 
 
+
+ALL CREDITS and KUDOS to all the respective authors, for the great and brilliant collection of material provided.
