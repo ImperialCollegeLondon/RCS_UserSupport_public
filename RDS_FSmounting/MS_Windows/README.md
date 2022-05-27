@@ -9,7 +9,7 @@ please refer to the instructions below.
 - on side pane (right Click on) [Network icon]     
 - [Map Network Drive]  
 
-![00001](assets/images/00001.png)
+![00001](/assets/images/00001.png)
 
 - **A** : pick an available Drive letter to mount  
 
@@ -40,7 +40,7 @@ Refer to :
 [check HPC Services Status](/Service_Status.md)  
 
 
-![00002](assets/images/00002.png)
+![00002](../assets/images/00002.png)
 
 
 - **A** : expand the tree node `rds.imperial.ac.uk`  
@@ -50,7 +50,7 @@ Refer to :
 - **C** : scroll down to find the `user` folder  
 
 
-![00003](assets/images/00003.png)
+![00003](https://github.com/ImperialCollegeLondon/RCS_UserSupport_public/blob/main/RDS_FSmounting/MS_Windows/assets/images/00003.png)
 
 - **A** : expand the tree node of the `user` folder
 
