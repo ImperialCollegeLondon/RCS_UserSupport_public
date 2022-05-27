@@ -36,7 +36,7 @@ things to test when things break in JHUB/JLAB (also suggested in the above link 
 PLEASE perform the following steps **only on Linux HPC CLI**,   
 not from WINDOWS editors/CLI, otherwise strange characters will be added, breaking the script.
 
-2. operate into your HPC $HOME folder to clean jupyter files:
+2. operate into your HPC `$HOME` folder to clean jupyter files:
 
 - on the HPC terminal :
   - check your current running jobs on JupyterHub `qstat -s`   
@@ -51,7 +51,8 @@ not from WINDOWS editors/CLI, otherwise strange characters will be added, breaki
 
 `touch ${HOME}/cleanJUPYTER.sh; chmod 0700 ${HOME}/cleanJUPYTER.sh ; vim ${HOME}/cleanJUPYTER.sh`
 
-- at the black page of VIM editor, get into insert mode by typing the letter  `i` (check the lower screen to see the insert mode active `-- INSERT --` )
+- at the black page of VIM editor, get into insert mode by typing the letter  `i`  
+    (check the lower screen to see the insert mode active `-- INSERT --` )
 
     - copy from this online guide you are reading the code/snipped below : `[CTRL] + [C]`     
 
@@ -68,7 +69,9 @@ not from WINDOWS editors/CLI, otherwise strange characters will be added, breaki
   echo DONE
   ```
 
-  - then use the `ESC` key to exit VIM insert mode (lower screen is black now) save and exit the editor with `[SHIFT]` + `[z]` , `[z]` (or alternatively type `:wq` + `[ENTER]` to exit vim)  
+  - then use the `ESC` key to exit VIM insert mode (lower screen is black now);  
+  - save and exit the editor with `[SHIFT]` + `[z]` , `[z]`  
+    (or alternatively type `:wq` + `[ENTER]` to exit Vim)  
 
 
 - then run the script from Linux HPC CLI to clean-up jupyter files :
@@ -79,9 +82,11 @@ not from WINDOWS editors/CLI, otherwise strange characters will be added, breaki
 
 3. once that's done please try logging back into the jupyterHub website BUT this time   
 
-  **PLEASE try using an "incognito browser" window.**
+- **PLEASE try using an "incognito browser" window.** to rule out other client/browser related issues.  
 
-  (sometimes saved cookies/settings in the browsers prevent a smooth navigation.)
+- sometimes saved cookies or locally cached settings in your browser prevent a smooth navigation.)
+
+- sometimes changing/trying a different Web browser helps too - always incognito mode though, please)
 
 
 
