@@ -9,7 +9,7 @@ please refer to the instructions below.
 - on side pane (right Click on) [Network icon]     
 - [Map Network Drive]  
 
-![00001](../assets/00001.png)
+![00001](https://github.com/ImperialCollegeLondon/RCS_UserSupport_public/blob/main/RDS_FSmounting/assets/00001.PNG)
 
 - **A** : pick an available Drive letter to mount  
 
@@ -40,7 +40,7 @@ Refer to :
 [check HPC Services Status](/Service_Status.md)  
 
 
-![00002](../assets/00002.png)
+![00002](https://github.com/ImperialCollegeLondon/RCS_UserSupport_public/blob/main/RDS_FSmounting/assets/00002.PNG)
 
 
 - **A** : expand the tree node `rds.imperial.ac.uk`  
@@ -50,7 +50,7 @@ Refer to :
 - **C** : scroll down to find the `user` folder  
 
 
-![00003](../assets/00003.png)
+![00003](https://github.com/ImperialCollegeLondon/RCS_UserSupport_public/blob/main/RDS_FSmounting/assets/00003.PNG)
 
 - **A** : expand the tree node of the `user` folder
 
@@ -58,12 +58,12 @@ Refer to :
 
 - **C** : click `OK`
 
-![00004](../assets/00004.png)
+![00004](https://github.com/ImperialCollegeLondon/RCS_UserSupport_public/blob/main/RDS_FSmounting/assets/00004.PNG)
 
 
 - **F** : click `Finish`
 
-![00005](../assets/00005.png)
+![00005](https://github.com/ImperialCollegeLondon/RCS_UserSupport_public/blob/main/RDS_FSmounting/assets/00005.PNG)
 
 - **A | B** :  specify the following info as your credentials :  
 
@@ -102,4 +102,4 @@ please note that the attached video is quite old and the process may not be enti
 
 test:  
 
-![00006](../assets/00006.png)
+![00006](https://github.com/ImperialCollegeLondon/RCS_UserSupport_public/blob/main/RDS_FSmounting/assets/00006.PNG)
