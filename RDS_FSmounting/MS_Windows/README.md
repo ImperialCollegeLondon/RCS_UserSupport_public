@@ -92,31 +92,11 @@ please note that the attached video is quite old and the process may not be enti
 [TESTING /DRAFT]
 
 
-IMG5
-
-test01
-![00005](assets/images/00005.png)
-
-test02
-![00005](/assets/images/00005.png)
-
-test03
-![00005](/assets/00005.png)
-
-test04
-![00005](/../assets/images/00005.png)
+test link01
+![checkIfworksIMG6](https://github.com/ImperialCollegeLondon/RCS_UserSupport_public/blob/main/RDS_FSmounting/assets/00006.PNG)
 
 
-IMG6
+bla bla
 
-test01
-![00006](assets/images/00006.png)
 
-test02
-![00006](/assets/images/00006.png)
-
-test03
-![00006](/assets/00006.png)
-
-test04
-![00006](/../assets/images/00006.png)
+![checkIfworksIMG6](../assets/00006.PNG)
