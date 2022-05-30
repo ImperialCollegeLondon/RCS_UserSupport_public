@@ -92,8 +92,26 @@ not from WINDOWS editors/CLI, otherwise strange characters will be added, breaki
 
 #### WHEN/IF ALL THE ABOVE FAILS
 
-for what concerns furhter troubleshooting, once you tried everything above and you are still not able to run/access it :
+- you can try with the "hard reset mode" suggested in Ref: [2]  :
+
+`rm -rf ${HOME}/.local/share/jupyter && mkdir -pv ${HOME}/.local/share/jupyter`  
+
+
+Evenutually, for what concerns furhter troubleshooting, once you tried everything above and you are still not able to run/access it :
 
 please ask the admins to "clear your session" from the webPortal too by opening a ticket with us.
 
 we may need to escalate further issues to whomever has installed the application for clarifications and or support and this may take a while.
+
+
+
+
+
+
+
+
+
+Refs:
+[1] https://github.com/ipython/ipython/issues/10174  
+[2] https://github.com/jupyter/notebook/issues/2923#issuecomment-335810979  
+
