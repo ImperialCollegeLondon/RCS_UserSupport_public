@@ -1,4 +1,4 @@
-###### 04 : HPC caveats and extended workflows
+## HPC caveats and extended workflows
 
 To be able to run your program on the HPC you need to write a "job-script" that contains the commands to execute the program.
 The job-script need to be submitted as a batch job on the HPC cluster infrastructure.  

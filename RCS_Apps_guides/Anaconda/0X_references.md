@@ -15,7 +15,7 @@
 
 query conda packages for known package availability:
 
-(e.g. querying for tensorflow)  https://anaconda.org/search?q=tensorflow
+(e.g. querying for tensorflow)  https://anaconda.org/search?q=tensorflow  
 
 ### IC conda cheatsheet :  
 [conda-cheatsheet.pdf](https://www.imperial.ac.uk/media/imperial-college/administration-and-support-services/ict/public/conda-cheatsheet.pdf)   

@@ -1,11 +1,15 @@
-###### use/install R in Venv via anaconda/personal
+## Install a custom R version in VEnv using anaconda
 
-The recommended method to use R is by using your personal anaconda installation. (module load anaconda3/personal)
-You can - and should! - create specific conda environments with the version you require of R,
-**NOT installing everything in the base environment**
-(the one that gets setup straight after running anaconda for the first time: this is called base environment and should be kept untouched)
+The recommended method to use R is by using your "personal anaconda" installation.  
 
-Please read for reference: https://www.imperial.ac.uk/admin-services/ict/self-service/research-support/rcs/support/applications/conda/
+`module load anaconda3/personal`  
+
+You must create specific **new conda environment** with the version of R you need.
+
+Please do **NOT install everything in the base environment** (the one that gets setup straight after running anaconda for the first time: this is called base environment and should be kept untouched) ( read [IMPORTANT NOTES here](/RCS_Apps_guides/Anaconda/01_basic_info.md) )
+
+Please read also for reference:  
+[IC conda Webpage Link 1](https://www.imperial.ac.uk/admin-services/ict/self-service/research-support/rcs/support/applications/conda/)
 
 ---
 
@@ -19,8 +23,7 @@ Please read for reference: https://www.imperial.ac.uk/admin-services/ict/self-se
 for anaconda first-timers or after you had purged and reset all your anaconda setup/installation you need to install it first,   
 otherwise skip ahead at next point :
 
-`anaconda-setup`  
-(and follow the on-screen instructions.)
+run `anaconda-setup`  then follow the on-screen instructions.
 
 - create your "R-specific" virtual environment
 
