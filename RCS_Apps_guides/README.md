@@ -18,7 +18,7 @@ Refs:
 
 ### Anaconda
 
-indicated to run your software versions by using [Anaconda]((/Anaconda/README.md)) and virtual environments where you can easily install software.
+indicated to run your software versions by using [Anaconda](/RCS_Apps_guides/Anaconda/README.md) and virtual environments where you can easily install software.
 
 
 ### Julia  
@@ -40,7 +40,7 @@ $ module add buildenv/default-foss-2021a
 
 ### Compilation of Software
 
-[Ref. to extended guidance](/SW_compilation.md)
+[Ref. to extended guidance](/RCS_Apps_guides/SW_compilation.md)
 
 
 
