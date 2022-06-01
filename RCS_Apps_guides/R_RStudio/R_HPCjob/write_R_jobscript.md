@@ -52,6 +52,8 @@ As the above software/versions may be old, incomplete or missing features and fu
 
 to access the new versions keep reading below.
 
+---
+
 ### 2. 2022 module files and SW versions  
 
 as simple as inserting these lines into your job_scripts will give you access to the latest software builds.
@@ -63,6 +65,25 @@ module add tools/dev
 module add R/4.1.2-foss-2021b
 ```
 
+---
+
+
+### 3. your own R version via anaconda installations  
+
+To learn how to setup your R custom version/installation through anaconda  
+please refer to this [R with anaconda guide](/RCS_Apps_guides/Anaconda/05_HPC_R_workflow.md)  
+
+Please note that various users have reported difficulties installing multiple R software packages in these self-contained customized environments.
+
+As dependencies and libraries trees can get quite complicated in these cases, issues must be solved on ad-hoc basis investigating each single case;
+this could take weeks or months to sort out, according to how complex an installation or environment is or it has become over the time.
+
+we strongly advise users to stick to the following principle:
+
+**`K.I.S.P.` = Keep It Simple Please**
+
+
+---
 
 **IMPORTANT NOTES** :
 
