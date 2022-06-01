@@ -1,5 +1,3 @@
-
-
 ## HOW TO: run Rscript in an HPC job
 
 example files are located in this repo folder and can be used as start-up templates for your workflows :
