@@ -4,23 +4,23 @@
 
 videos and resources on Jupyter notebooks and why you should learn "how to code properly" in 2022 :
 
-insightful articles:
+insightful articles:  
 
 [5 Reasons why you should Switch from Jupyter Notebook to Scripts](https://towardsdatascience.com/5-reasons-why-you-should-switch-from-jupyter-notebook-to-scripts-cb3535ba9c95?gi=41aa8d2e0164)  
 
-from a Data Scientist:
+from a Data Scientist:  
 [Why Data Scientists Need to Move from Jupyter Notebooks to Scripts](https://www.section.io/engineering-education/why-data-scientists-need-to-move-from-jupyter-notebooks-to-scripts/)  
 
 
 from JupyterCon 2018 :  
-- [I don't like notebooks - Joel Grus (Allen Institute for Artificial Intelligence)](https://www.youtube.com/watch?v=7jiPeIFXb6U)
+- [I don't like notebooks - Joel Grus (Allen Institute for Artificial Intelligence)](https://www.youtube.com/watch?v=7jiPeIFXb6U)  
 
-- [Jeremy Howard talk on "I Like Notebooks"](https://www.youtube.com/watch?v=9Q6sLbz37gk)
+- [Jeremy Howard talk on "I Like Notebooks"](https://www.youtube.com/watch?v=9Q6sLbz37gk)  
 
 Reddit Platform :  
 "programming subreddit"
 (so you are getting a lot of answers from developers and engineers)  
-- [Notebooks suck: change my mind](https://www.reddit.com/r/Python/comments/spxim1/notebooks_suck_change_my_mind/)
+- [Notebooks suck: change my mind](https://www.reddit.com/r/Python/comments/spxim1/notebooks_suck_change_my_mind/)  
 
 
 Eduardo Blancas Blog :  
