@@ -1,17 +1,53 @@
 
 [draft/WIP]
 
-### JUPYTER HUB, LAB and NOTEBOOKS
+## JUPYTER HUB, LAB and NOTEBOOKS
+
+
+### COMMONLY REPORTED USER ISSUES and COMPLAINTS
+
+This is an experimental service and provided "as it is".
+
+Due to its complex architecture and nature, users have reported multiple instances of errors and various issues that we have not been fully able to address.
+
+These could be related to:  
+
+- the underlying HPC hardware (known issues);   
+(e.g. distributed FileSystem lock-ups and slowness or unavailability; unplanned outages; network bottlenecks etc..)
+
+- the underlying HPC configuration (known issues):
+(jobs and queues, service over-subscription, etc..)
+
+- the Application itself - both
+    - server-side (setup/config, it's proxying features and complex stack, the WebApp nature of the GUI-based tools etc..) and
+    - client-side (cookies, browser compatibility, caching, not "exiting the portal" etc.)
+
+- User dependent factors
+(misconfiguration/"bloatedness" of user's environment and startup files, input/output files are too big, paths used or symlinks are not valid etc.)
 
 
 
-#### COMMON USER REPORTED ISSUES
+---
+### THINGS THAT MAY HELP
+
+- run WebApps in browsers' incognito-mode windows ; this will make sure to:
+  - "isolate" your log-in session for the time you need it
+  - cleare all cookies and cached Client data/settings once you're done and close the browser incognito window.
+
+- always **use the correct log-out" procedures of the WebApp ;  
+  - whenever possible search for the "LOGOUT" button or "EXIT" button of the WebApp ;  
+  - sometimes if the button is not present or visible, browsing to the https://Name-of-The-Service-I-Am-using/logout page, could help logging you out - provided that page/endpoint has been setup correctly - otherwise you will see an error (most likely a 404 Error)  
 
 
-ERROR: `thise version can load notebook formats or earlier`    
 
-see ref:
-https://github.com/ipython/ipython/issues/10174   
+---
+### OTHER COMMON USER REPORTED ISSUES
+
+
+
+> ERROR: `this version can load notebook formats or earlier`    
+
+see ref: [github issue](https://github.com/ipython/ipython/issues/10174)   
 
 
 
@@ -31,6 +67,7 @@ things to test when things break in JHUB/JLAB (also suggested in the above link 
 - clicking the Logout button  
 
 - browsing to the link: https://jupyter.rcs.imperial.ac.uk/logout  
+
 
 **NOTE** :   
 PLEASE perform the following steps **only on Linux HPC CLI**,   
@@ -111,7 +148,7 @@ we may need to escalate further issues to whomever has installed the application
 
 
 
-Refs:
+Refs:  
 [1] https://github.com/ipython/ipython/issues/10174  
 [2] https://github.com/jupyter/notebook/issues/2923#issuecomment-335810979  
 
