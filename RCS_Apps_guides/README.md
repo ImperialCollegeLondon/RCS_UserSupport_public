@@ -27,6 +27,10 @@ indicated to run your software versions by using [Anaconda](/RCS_Apps_guides/Ana
 ### Matlab  
 
 
+###  MKL, BLAS, LAPACK, FFTW3
+
+some commonly used libraries and how to access them [libs and Features](/RCS_Apps_guides/libs_and_features.md)  
+
 
 ### Build environment
 
