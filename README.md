@@ -6,15 +6,16 @@ collating bits and pieces for a more effective support to 21st century users
 Please refer to the following pages to read more about the main software and applications we provide  
 and how to obtain more info if you have access to Imperial College HPC Services.
 
-[check HPC Services Status](/Service_Status.md)
+[check HPC Services Status](/Service_Status.md) - do this frequently and surely before submitting important jobs to avoid issues and frustration.
+
+book a [RCS CLINICS appointment](/RCS_admchorz/about_HPC_clinics.md) with a member of the Team for a one-to-one Support chat
+
+How to Enroll for [starters or new users](/RCS_admchorz/HPC_newstarter.md)
 
 ---
+You may always want to refer to the [RCS Main page](https://www.imperial.ac.uk/admin-services/ict/self-service/research-support/rcs/) for more info and updates.
 
-#### Basic Topics:
-
-
-
-[RCS Main page](https://www.imperial.ac.uk/admin-services/ict/self-service/research-support/rcs/)
+#### HPC Basic Topics:
 
 [How to connect to the HPC Services](https://www.imperial.ac.uk/admin-services/ict/self-service/research-support/rcs/support/getting-started/using-ssh/)
 
@@ -39,7 +40,7 @@ and how to obtain more info if you have access to Imperial College HPC Services.
 
 ---
 
-#### Advanced Topics:
+#### HPC more Advanced Topics:
 
 [Array jobs](https://www.imperial.ac.uk/admin-services/ict/self-service/research-support/rcs/computing/array-jobs/)
 
