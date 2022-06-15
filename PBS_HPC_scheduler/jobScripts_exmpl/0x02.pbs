@@ -1,0 +1,36 @@
+#!/usr/bin/bash
+
+#PBS -l select=1:ncpus=6:mpiprocs=6:mem=32gb
+#PBS -l walltime=00:15:0
+#PBS -N testName
+
+### Load modules for the needed application (in this case not installed on the HPC)
+
+### before running this script you need to install the wanted App using anaconda in a virtual environment
+### see [guides](https://github.com/ImperialCollegeLondon/RCS_UserSupport_public/tree/main/RCS_Apps_guides/Anaconda)
+
+### load anaconda3 module file (already installed on the HPC)
+
+module load anaconda3/personal
+
+### activate your anaconda custom virtual environment with your app installed
+
+source activate tf33
+
+### Change directory to the submission folder (where my script is located in this example)
+
+cd ${PBS_O_WORKDIR}
+
+# using the PBS_JOBID environment variable defined by the scheduler and equal to the submitted jobID
+# we create a filder in ephemeral space to temporarily save there the calculations made
+
+MY_OUT="${EPHEMERAL}/${PBS_JOBID}"
+mkdir ${MY_OUT}
+
+### Run a python3 script (located in the submission folder)
+### and save the output file in the specified path
+### need to confirm where job output and error files get saved in this case: PBS_O_WORKDIR or MY_OUT ?!
+### look for xxxxxx.oJOBID xxxxxx.eJOBID files
+
+python myPythonScript.py > ${MY_OUT}/run01.output
+

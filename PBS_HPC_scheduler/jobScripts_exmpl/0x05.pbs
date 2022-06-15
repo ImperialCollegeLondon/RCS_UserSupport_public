@@ -1,0 +1,23 @@
+#!/usr/bin/bash
+
+#PBS -l select=1:ncpus=4
+#PBS -l walltime=00:10:00
+#PBS -N Job_Array_Test
+#PBS -J 0-10
+#PBS -j oe
+
+### Change directory to the submission folder (where my script is located in this example)
+
+cd ${PBS_O_WORKDIR}
+
+### create an index j that changes accordingly to the subjobID of the array job (i.e. from 0 to 10) in this case
+
+j=${PBS_ARRAY_INDEX}
+
+### maths operation based on index value (these will rotate/change in each array subjob!)
+(( y=j % 40 ))
+(( x=j/40 ))
+
+### pritout some text per job/subjob to debug  
+
+echo "For index $j, my x and y indices are=$x and $y"

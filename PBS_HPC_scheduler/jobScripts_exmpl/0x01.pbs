@@ -1,0 +1,18 @@
+#!/usr/bin/bash
+
+#PBS -l select=1:ncpus=6:mpiprocs=6:mem=32gb
+#PBS -l walltime=00:15:0
+#PBS -N testName
+
+### Load modules for the needed application (if already installed on the HPC)
+
+module load lammps/19Mar2020
+
+### Change directory to the submission folder (where my script is located in this example)
+
+cd ${PBS_O_WORKDIR}
+
+### Run a python3 script (located in the submission folder)
+### and save output and error files into the submission folder itself.
+
+python3 myPythonScript.py
