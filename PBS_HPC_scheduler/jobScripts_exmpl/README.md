@@ -10,7 +10,7 @@ NOTES and CONVENTIONS :
 
 
 
-[Issues with the script interpreter](/jobScripts_exmpl/gen_issues.md)  
+[Issues with the script interpreter](/PBS_HPC_scheduler/jobScripts_exmpl/gen_issues.md)  
 
 ---
 
@@ -19,11 +19,12 @@ NOTES and CONVENTIONS :
 
 The following are simple job-scripts examples to be used as a templates and starting point for your workflow :  
 
-[basic job-script](/jobScripts_exmpl/0x01_basic.pbs)  
+[basic job-script](/PBS_HPC_scheduler/jobScripts_exmpl/0x01_basic.pbs)  
 
-[simple job-script](/jobScripts_exmpl/0x02_simple.pbs)  
+[simple job-script](/PBS_HPC_scheduler/jobScripts_exmpl/0x02_simple.pbs)  
 
-[GPU App job-script](/jobScripts_exmpl/0x04_GPU.pbs)  
+[GPU App job-script](/PBS_HPC_scheduler/jobScripts_exmpl/0x04_GPU.pbs)  
 
-[Job Array job-script](/jobScripts_exmpl/0x05_jobArray.pbs)  
+[Job Array job-script](/PBS_HPC_scheduler/jobScripts_exmpl/0x05_jobArray.pbs)  
+
 
