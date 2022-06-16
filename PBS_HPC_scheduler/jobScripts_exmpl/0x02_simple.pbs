@@ -1,21 +1,24 @@
 #!/usr/bin/bash
 
+### before running this script you need to install the wanted App using anaconda in a virtual environment (e.g. MyVirtualEnv01)
+### see [guides](https://github.com/ImperialCollegeLondon/RCS_UserSupport_public/tree/main/RCS_Apps_guides/Anaconda)
+
 #PBS -l select=1:ncpus=6:mpiprocs=6:mem=32gb
 #PBS -l walltime=00:15:0
 #PBS -N testName
 
+### make sure no other modules are loaded
+
+module purge
+
 ### Load modules for the needed application (in this case not installed on the HPC)
-
-### before running this script you need to install the wanted App using anaconda in a virtual environment
-### see [guides](https://github.com/ImperialCollegeLondon/RCS_UserSupport_public/tree/main/RCS_Apps_guides/Anaconda)
-
 ### load anaconda3 module file (already installed on the HPC)
 
 module load anaconda3/personal
 
 ### activate your anaconda custom virtual environment with your app installed
 
-source activate tf33
+source activate MyVirtualEnv01
 
 ### Change directory to the submission folder (where my script is located in this example)
 
@@ -29,8 +32,10 @@ mkdir ${MY_OUT}
 
 ### Run a python3 script (located in the submission folder)
 ### and save the output file in the specified path
-### need to confirm where job output and error files get saved in this case: PBS_O_WORKDIR or MY_OUT ?!
-### look for xxxxxx.oJOBID xxxxxx.eJOBID files
+### this case:
+### the python script output is forced to be saved into ${MY_OUT}
+### job output and error files should still get saved in ${PBS_O_WORKDIR}
+### just look for xxxxxx.oJOBID xxxxxx.eJOBID files
 
 python myPythonScript.py > ${MY_OUT}/run01.output
 

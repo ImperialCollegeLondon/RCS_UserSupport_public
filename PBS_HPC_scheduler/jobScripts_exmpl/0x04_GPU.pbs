@@ -4,8 +4,11 @@
 #PBS -l walltime=00:30:00
 #PBS -N testName_1GPU
 
-### Load modules for the needed application (in this case not installed on the HPC)
+### make sure no other modules are loaded
 
+module purge
+
+### Load modules for the needed application (in this case not installed on the HPC)
 ### loading cuda module with drivers version 10.2
 
 module load cuda/10.2
@@ -26,7 +29,7 @@ TRNG_PATH="${MYAPP_PATH}/training"
 
 ### running my GPU App executable using the ${CUDA_VISIBLE_DEVICES} to reference CPUs
 
-${MYAPP_PATH}/My_GPU_App1_exec -model ${MODEL_PATH}/model.01		      \
+${MYAPP_PATH}/My_GPU_App1_exec -model ${MODEL_PATH}/model.01		            \
                                      -configfile ${CFGFILE_PATH}            \
                		                   -train ${TRNG_PATH}/training_mod.m1  	\
                		                   -device ${CUDA_VISIBLE_DEVICES}

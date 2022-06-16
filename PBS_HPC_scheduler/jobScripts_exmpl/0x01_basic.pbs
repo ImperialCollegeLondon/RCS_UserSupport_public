@@ -4,6 +4,10 @@
 #PBS -l walltime=00:15:0
 #PBS -N testName
 
+### make sure no other modules are loaded
+
+module purge
+
 ### Load modules for the needed application (if already installed on the HPC)
 
 module load lammps/19Mar2020

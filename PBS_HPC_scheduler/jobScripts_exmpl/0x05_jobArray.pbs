@@ -4,7 +4,13 @@
 #PBS -l walltime=00:10:00
 #PBS -N Job_Array_Test
 #PBS -J 0-10
+
+### using this PBS directive it will combine job output + job error into one single file
 #PBS -j oe
+
+### make sure no other modules are loaded
+
+module purge
 
 ### Change directory to the submission folder (where my script is located in this example)
 
@@ -18,6 +24,6 @@ j=${PBS_ARRAY_INDEX}
 (( y=j % 40 ))
 (( x=j/40 ))
 
-### pritout some text per job/subjob to debug  
+### pritout some text per job/subjob to debug
 
 echo "For index $j, my x and y indices are=$x and $y"
