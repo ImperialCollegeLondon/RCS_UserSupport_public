@@ -1,0 +1,40 @@
+#!/usr/bin/bash
+
+#PBS -l select=1:ncpus=16:mem=96gb:ngpus=1:gpu_type=RTX6000
+#PBS -l walltime=00:30:00
+#PBS -N testName_1GPU
+
+### Load modules for the needed application (in this case not installed on the HPC)
+
+### loading cuda module with drivers version 10.2
+
+module load cuda/10.2
+
+### Change directory to the submission folder (where my script is located in this example)
+
+cd ${PBS_O_WORKDIR}
+
+### DEBUG checking in a jobrun what' the GPUs assigned to this job
+### echo "GPU number(s) is/are : ${CUDA_VISIBLE_DEVICES}"
+
+### setting up some paths
+
+MYAPP_PATH="${PBS_O_WORKDIR}/My_GPU_App1"
+CFGFILE_PATH="${MYAPP_PATH}/configFiles/conf_01.cfg"
+MODEL_PATH="${MYAPP_PATH}/models"
+TRNG_PATH="${MYAPP_PATH}/training"
+
+### running my GPU App executable using the ${CUDA_VISIBLE_DEVICES} to reference CPUs
+
+${MYAPP_PATH}/My_GPU_App1_exec -model ${MODEL_PATH}/model.01		      \
+                                     -configfile ${CFGFILE_PATH}            \
+               		                   -train ${TRNG_PATH}/training_mod.m1  	\
+               		                   -device ${CUDA_VISIBLE_DEVICES}
+
+
+### NOTES:
+###
+### in this example with My_GPU_App1_exec executable , you address GPUs with the -device flag and
+### by specifying in-line the number(s) of GPU(s) your script is using i.e.  ${CUDA_VISIBLE_DEVICES}
+###
+### THIS MAY BE DIFFERENT IN YOUR CODE! check the docs of the APP you are running.
