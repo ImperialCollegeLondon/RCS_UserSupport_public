@@ -7,34 +7,38 @@ Should you prefer a face-to-face chat approach, our door is open every Tuesday f
 
 these are called [RCS Clinics](https://www.imperial.ac.uk/admin-services/ict/self-service/research-support/rcs/support/attend-a-clinic/)
 
-an can be booked by [Using this calendar](https://outlook.office365.com/owa/calendar/ResearchComputingService1@ImperialLondon.onmicrosoft.com/bookings/) and attended on the date of the appointment by using [MS Teams](https://www.imperial.ac.uk/admin-services/ict/self-service/connect-communicate/office-365/apps/microsoft-teams/).
+They can be booked by [Using this calendar link](https://outlook.office365.com/owa/calendar/ResearchComputingService1@ImperialLondon.onmicrosoft.com/bookings/)  
+and attended by using [MS Teams](https://www.imperial.ac.uk/admin-services/ict/self-service/connect-communicate/office-365/apps/microsoft-teams/)  on the date of the appointment.  
 
-> NOTE :   
-- calendars booking may be open on **Mondays** or **Tuesday morning(s) ONLY**.
-- kindly do NOT report issues with the booking system on other days.  
+You should receive on Mondays or on Tuesday mornings a _clinics reminder notification_ if you are already part of our users-list.  
 
 
-You should receive a message notification if you are already part of our users-list, mostly on Tuesday morning or the day before the clinics.  
+> NOTEs :   
+  - calendar bookings may become "open" on **Mondays** or **Tuesday morning(s) ONLY**.  
+  - kindly do NOT report issues with the booking system on other days.    
+  - If you have issues with calendar bookings or links please look at booking a meeting with [a member of the RCS Team](https://www.imperial.ac.uk/admin-services/ict/self-service/research-support/rcs/meet-the-team/) - directly by using a ["direct selection" criterion](https://www.imperial.ac.uk/collegedirectory/).
 
-If you have issues with calendars, booking or links please look at booking a meeting with [the RCS Teams](https://www.imperial.ac.uk/admin-services/ict/self-service/research-support/rcs/meet-the-team/) - directly by picking a member of your choice [directly](https://www.imperial.ac.uk/collegedirectory/)
 
-Before both, booking and actual appointment,  
-and whenever booking the calendar event  
+
+
+Before
+- booking an appointment  
+- attending an actual appointment  
 
 Please make sure to :  
 
-- clearly state the reasons of your booking when scheduling an appointment  
-- provide context add as many details as possible for the analysts to assist  
-- specify the person you would like to talk to - with reference to your specific issue.
+- clearly provide the **reasons** of your booking
+- provide some **context** ,  adding as many details and info as possible, for the analyst to assist you at best  
+- specify the person you would like to talk to - with reference to your specific issue. (if no selection was possible before..)
 
-(bookings may be reassigned internally if need be for various reasons)
+We may need to reassign internally your booking, for reasons of availability, role, suitability etc..
 
 
 Please do not hesitate to write us back should you have any more doubts or queries; we will be happy to assist you further.
 
-you can contact us using the [IC main Website - RCS HELP PAGE](https://www.imperial.ac.uk/admin-services/ict/self-service/research-support/rcs/support/help/) and picking the **correct issue/request sub-category** please.
+You can contact us using the [IC main Website - RCS HELP PAGE](https://www.imperial.ac.uk/admin-services/ict/self-service/research-support/rcs/support/help/) and by picking the **correct issue / request sub-category** please.
 
-We warmly thank you for your time, help and understanding.
+We warmly thank you for your time, patience, help and understanding.
 
-
+Best Regards  
 _The RCS-Support Team_
