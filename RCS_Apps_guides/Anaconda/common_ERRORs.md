@@ -33,7 +33,7 @@ IMPORTANT: You may need to close and restart your shell after running 'conda ini
 
 2.  manually patch your anaconda installation with this file:
 
-- download from this repo the file : [conda.sh](/RCS_UserSupport_public/RCS_Apps_guides/Anaconda/assets/files/conda.sh)  
+- download from this repo the file : [conda.sh](RCS_Apps_guides/Anaconda/assets/files/conda.sh)  
 
 - save it in `~/anaconda3/etc/profile.d/`
 
