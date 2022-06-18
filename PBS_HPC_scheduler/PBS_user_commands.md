@@ -74,9 +74,9 @@ example:
 ```
    Job ID           Class            Job Name        Status     Comment
 -------------- --------------- -------------------- -------- -------------
-5626041        GPU             <job_name1>         Queued   starting by Wed Jun 15 14:51
-5626042        GPU             <job_name2>         Queued   starting by Thu Jun 16 03:03
-5626043        v1_medium72     <job_name3>         Running  finishing today at 17:07
+5226141        GPU             <job_name1>         Queued   starting by Wed Jun 15 14:51
+5426542        GPU             <job_name2>         Queued   starting by Thu Jun 16 03:03
+5826143        v1_medium72     <job_name3>         Running  finishing today at 17:07
 ```
 
 
@@ -87,9 +87,9 @@ example:
 example:  
 ```
                                                               Req'd  Req'd   Elap
-  Job ID          Username Queue    Jobname    SessID NDS TSK Memory Time  S Time
+  Job ID          Username    Queue    Jobname    SessID NDS TSK Memory Time  S Time
   --------------- -------- -------- ---------- ------ --- --- ------ ----- - -----
-  5645861.pbs     plc21    v1_gpu72 Analyse_Te    --    1  30  900gb 20:58 Q   --
+  5142831.pbs     username    v1_gpu72 Analyse_Te    --    1  30  900gb 20:58 Q   --
      Not Running: Insufficient amount of resource: Qlist
 ```
 
