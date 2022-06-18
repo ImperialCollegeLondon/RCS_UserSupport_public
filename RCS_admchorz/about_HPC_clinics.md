@@ -14,9 +14,9 @@ You should receive on Mondays or on Tuesday mornings a _clinics reminder notific
 
 
 > NOTEs :   
-  - calendar bookings may become "open" on **Mondays** or **Tuesday morning(s) ONLY**.  
-  - kindly do NOT report issues with the booking system on other days.    
-  - If you have issues with calendar bookings or links please look at booking a meeting with [a member of the RCS Team](https://www.imperial.ac.uk/admin-services/ict/self-service/research-support/rcs/meet-the-team/) - directly by using a ["direct selection" criterion](https://www.imperial.ac.uk/collegedirectory/).
+>  - calendar bookings may become "open" on **Mondays** or **Tuesday morning(s) ONLY**.  
+>  - kindly do NOT report issues with the booking system on other days.    
+>  - If you have issues with calendar bookings or links please look at booking a meeting with [a member of the RCS Team](https://www.imperial.ac.uk/admin-services/ict/self-service/research-support/rcs/meet-the-team/) - directly by using a ["direct selection" criterion](https://www.imperial.ac.uk/collegedirectory/).
 
 
 
