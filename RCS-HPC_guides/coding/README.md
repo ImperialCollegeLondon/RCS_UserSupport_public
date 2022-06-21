@@ -27,7 +27,7 @@ PLEASE **DON'T CODE ON THE HPC SERVICE !**
   This is especially valid if your code/sw is getting more than 10 lines long and complex.
 
 2. **pay attention to Microsoft Windows-OS editors "shenanigans"** :  
-when using this OS and its custom editing tools, please remember that "weird" control characters may be introduced in your scripts (this is - simply put - due to "different OSs paradigms which are not fully cross-incompatible") so you may want to sanitize your code.
+when using this OS and its custom editing tools, please remember that "weird" control characters may be introduced in your scripts (this is - simply put - due to "different OSs paradigms which are not fully cross-compatible") so you may want to sanitize your code.
 
   **reason :**  MS windows control codes and line terminators, will most likely break your scripts on Linux based OS, such as the ones we run on the HPC.  
   (e.g. removing `^M` characters and similar; please note on this topic, that some characters may be hidden to the users)
