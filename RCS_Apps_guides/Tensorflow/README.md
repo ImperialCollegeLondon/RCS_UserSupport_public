@@ -52,6 +52,27 @@ some examples are reported below:
 
 
 
+## (UN)common Warning and errors
+
+`W tensorflow/core/common_runtime/bfc_allocator.cc:456] Allocator (GPU_0_bfc) ran out of memory trying to allocate `  
+
+`W tensorflow/core/kernels/gpu_utils.cc:49] Failed to allocate memory for`   
+
+
+If the cause is memory fragmentation maybe the environment variable `TF_GPU_ALLOCATOR=cuda_malloc_async` will improve the situation.  
+
+
+See this link [TF docs](https://www.tensorflow.org/guide/gpu#limiting_gpu_memory_growth) for the topics :   
+
+- Limiting GPU memory growth  
+
+- Using a single GPU on a multi-GPU system  
+
+
+
+
+
+
 
 
 
