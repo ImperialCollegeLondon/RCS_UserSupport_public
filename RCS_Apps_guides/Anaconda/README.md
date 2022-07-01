@@ -83,5 +83,69 @@ then change them according to your needs.
 `conda env create -f /tmp/test_env.yaml`
 
 
+
+### 07 : cloning/backing-up an Anaconda VEnv
+
+to create a **clone / backup** of on of your current VEnvs use the commands below.  
+
+If this is a **backup** (rather than a testing/development-clone) we advise keeping the clone untouched, and in the case of VEnv corruption, you can start back from this backup, creating a new working production-grade clone.
+
+[Workflow example](/RCS_Apps_guides/Anaconda/07_VEnv-cloning_WKFL.md)  
+
+
+### 08 : Deleting a conda Environment
+
+Various options to delete anaconda environments are listed below.
+
+common reasons for wanting to delete a Conda environment are:
+
+-  **To free up space**  
+  Conda Envs consume space and you may eventually, run out of space on your system.  
+  To free space, you can delete unnecessary conda environments.
+
+-  **Delete a corrupted environment**  
+  Conda environments get corrupted easily. It is often easier to start from scratch by creating a new environment.
+
+- **Good practice**  
+  It is a good practice to delete the conda environments you do not need or that are old or not actively maintained. (python packages and libraries gets very often updated and your VEnv and code may get outdated very quickly)
+
+---
+
+1. `conda env remove -n <corrupted_env>`  
+
+  OR   `conda env remove --name <corrupted_env>`  
+
+
+2. `conda remove -n <corrupted_env> --all`  
+
+  OR  `conda remove --name <corrupted_env> --all`  
+
+3. `conda env remove --prexif /path/to/MyEnv2remove`  
+
+  OR  `conda env remove -p /path/to/MyEnv2remove`  
+
+  This last option implies knowledge of the path where the env is stored: (normally under `$HOME/anaconda3/envs/myenv_name` for our installation)
+
+
+NOTE:  
+It is not advisable to delete the conda environment directory directly but In some cases, it might be necessary.
+This can be achieved like so:  
+
+Find the path of the conda environment using:
+
+  ```
+  conda info --envs
+  rm -rf /path/2/anaconda/envs/corrupted_env
+  ```
+
+
+
 ### 0X : References
+
+[managing conda envs](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)  
+
+[moving, cloning, backing up conda envs](https://www.anaconda.com/blog/moving-conda-environments)  
+
+[deleting conda envs](https://iq.opengenus.org/delete-conda-environment/)  
+
 
