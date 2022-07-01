@@ -21,7 +21,8 @@ You may always want to refer to the [RCS Main page](https://www.imperial.ac.uk/a
 
 [Training pages](https://www.imperial.ac.uk/admin-services/ict/self-service/research-support/rcs/training/)
 
-[Training PDF](https://imperialcollegelondon.app.box.com/s/4ohpl9tr172anl7usfd1l4y9rqbi0dmw)  -- kindly provided by: [Dr. Katerina Michalickova](https://www.imperial.ac.uk/collegedirectory/index.asp?PeopleID=215926)  
+[Training PDF -- v.2022](https://imperialcollegelondon.app.box.com/s/kwjxbd5bc87w296wo0m7fdwo9jct5vvs) -- kindly provided by: [Dr. Katerina Michalickova](https://www.imperial.ac.uk/collegedirectory/index.asp?PeopleID=215926)  
+[Training PDF -- v.2020](https://imperialcollegelondon.app.box.com/s/4ohpl9tr172anl7usfd1l4y9rqbi0dmw)  -- kindly provided by: [Dr. Katerina Michalickova](https://www.imperial.ac.uk/collegedirectory/index.asp?PeopleID=215926)  
 
 
 [RCS - HPC Applications](https://www.imperial.ac.uk/admin-services/ict/self-service/research-support/rcs/support/applications/)
