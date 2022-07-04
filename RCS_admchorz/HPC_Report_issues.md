@@ -13,12 +13,15 @@ in addition to what is asked in the form above
 these are vital if your workspace is not tidy, version controlled and/or you continuously need to edit files and filenames as we see in most cases :  
 
 - **jobID**    
-- **name of the file** of your job-script/submission-script  
+- **filename of the of the job-script / submission-script used** (with explicit version name if they use one!)
 - **absolute path location of the job-script**    
+- **absolute path location of ERROR and OUTPUT logs** (if these are not in any of the folders already mentioned above!)
 
+**! IMPORTANT !**  
+If you want us to perform a quick and efficient troubleshooting   
+Please **DO NOT move, delete, or rename any/previous jobs' error/output files**  
+(even if these were created by failed jobs!)   
 
-Please make sure to **NOT delete any previous job error/output files** created by failed jobs, if you want us to be able to perform troubleshooting/fault analysis in an efficient way.
-
-If we need to investigate further issues, we may need to be able to check your `job-scripts` and what SW, input and output files you are running and pinpoint this to particular times/days so deleting or moving files around will not only incur in Support and troubleshooting delays but making the whole process frustrating for both users and analysts.   
+If we need to investigate further issues, we may need to be able to check your `job-scripts` and what SW, input and output files you are running and pinpoint this to particular times/dates;  deleting or moving files around will not only incur in Support and troubleshooting delays but it will contribute in making the whole process frustrating for both users and analysts.   
 
 Thanks for your time, understanding and collaboration.  
