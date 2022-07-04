@@ -32,7 +32,7 @@ These could be related to:
 
 - run WebApps in browsers' incognito-mode windows ; this will make sure to:
   - "isolate" your log-in session for the time you need it
-  - cleare all cookies and cached Client data/settings once you're done and close the browser incognito window.
+  - clear all cookies and cached Client data/settings once you're done and close the browser incognito window.
 
 - always **use the correct log-out" procedures of the WebApp ;  
   - whenever possible search for the "LOGOUT" button or "EXIT" button of the WebApp ;  
@@ -44,14 +44,27 @@ These could be related to:
 ### OTHER COMMON USER REPORTED ISSUES
 
 
-
+1. Version Error :   
 > ERROR: `this version can load notebook formats or earlier`    
 
-see ref: [github issue](https://github.com/ipython/ipython/issues/10174)   
+  see ref: [github issue](https://github.com/ipython/ipython/issues/10174)   
 
 
 
+2. Your Session was longer than the allowed/requested spawned job
 
+  results in the job getting killed by the HPC scheduler.
+
+  if by inspecting the last few lines of the file:  `$HOME/.jupyterhub.stderr`     
+the output reads
+
+  ```
+=>> PBS: job killed: walltime 28828 exceeded limit 28800
+```
+
+  this means that the JHUB interface associated job was killed by the scheduler because it was longer than what we expect (i.e. for this case max 8 hour session, 28800s).
+
+  In this case you need to start a new one; you may need to clear previous sessions/left-over files as per procedure below.
 
 
 ---
@@ -91,7 +104,7 @@ not from WINDOWS editors/CLI, otherwise strange characters will be added, breaki
 - at the black page of VIM editor, get into insert mode by typing the letter  `i`  
     (check the lower screen to see the insert mode active `-- INSERT --` )
 
-    - copy from this online guide you are reading the code/snipped below : `[CTRL] + [C]`     
+    - copy from this online guide you are reading the code/snippet below : `[CTRL] + [C]`     
 
     - paste into Linux Vim terminal with `[SHIFT] + [CTRL] + [V]`  
 
