@@ -41,8 +41,9 @@ This procedure is also used to Re-install anaconda after a purge/Re-initialisati
   `rm -rf ${HOME}/anaconda3/`
 
   > **IMPORTANT :**  
-> This operation will **remove also all the virtual environments** that you have previously created (as they are stored in `${HOME}/anaconda3/envs`).
->
+  > This operation will **remove also all the virtual environments** that you have previously created  
+  > (as they are stored in `${HOME}/anaconda3/envs`).
+  >
   > **Backing up the VEnvs** is possible - and advisable for important, work before purging - see paragraphs below **06, 07, 08** .  
 
 
