@@ -19,20 +19,32 @@ basic quick commands/examples to get started with Anaconda (the `conda` program)
 please see the HPC prerequisites as you may need to run `anaconda-setup` first.  
 (see [workflows examples](/RCS_Apps_guides/Anaconda/03_workflow_examples.md) for extensive examples)
 
-### 02a : Re-initialize your current anaconda personal installation
+### 02a : First Time setup/installation
 
-To **purge** your currently installed anaconda-personal installation and **Re-initialize** it  
+To install the RCS-maintained version of anaconda, for the first time, you need to execute the following commands :   
+
+```
+module load anaconda3/personal  
+anaconda-setup  
+```
+
+this will start a basic setup and the needed basic configuration.
+
+### 02b : Re-initialize your current anaconda-personal installation
+
+To **purge** your currently installed anaconda-personal installation and **Re-initialize** it (example after a big corruption event)
 
 you need to remove the `anaconda3` folder in your `/home` directory and re-install from scratch.
 
 **IMPORTANT :**  
 
-please bear in mind that this operation will **remove also all the virtual environments** that you have created so far because they are stored in `${HOME}/anaconda3/envs`.
+This operation will **remove also all the virtual environments** that you have previously created, because they are stored in `${HOME}/anaconda3/envs`.
 
-**backing these up** may be possible, but I have not personally tested yet a fast and effective way to do so and most importantly, an easy/quick way to restore them after re-initialization.
+**backing these up** it is possible: see paragraphs below 06, 07, 08 .  
 
 `rm -rf ${HOME}/anaconda3/`
 
+- To Reinstall anaconda-personal, after the purging please follow the steps for the first-time setup at paragraph 02a above.
 
 ### 03 : Workflow examples
 
