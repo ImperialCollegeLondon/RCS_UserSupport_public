@@ -1,7 +1,7 @@
 #!/usr/bin/bash
-#PBS -l select=1:ncpus=6:mpiprocs=6:mem=32gb
-#PBS -l walltime=00:15:0
-#PBS -N testName
+#PBS -l select=1:ncpus=8:mem=20gb:avx=true
+#PBS -l walltime=00:15:00
+#PBS -N Gaussian_job_testName
 
 ### make sure no other modules are loaded
 
@@ -9,7 +9,7 @@ module purge
 
 ### Load modules for the needed application (if already installed on the HPC)
 
-module load gaussian/g09-e01
+module load gaussian/g09-c01
 
 ### Change directory to the submission folder (where my script is located in this example)
 

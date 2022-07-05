@@ -21,9 +21,11 @@ Gaussian versions can be activated loading one of the module files listed below:
 
   `module avail gaussian`
 
-- load `g09-e01` OR `g16-a03` :  
+- load gaussian version `g09-c01` OR version `g16-a03` :  
 
-  `module load gaussian/g09-e01`
+  `module load gaussian/g09-c01`
+
+  `module load gaussian/g16-a03`
 
 **TIPS:**   
 Gaussian 09 command line executuable is `g09`        
