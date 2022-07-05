@@ -30,21 +30,23 @@ anaconda-setup
 
 this will start a basic setup and the needed basic configuration.
 
+This procedure is also used to Re-install anaconda after a purge/Re-initialisation (see paragraph below **02b**).
+
 ### 02b : Re-initialize your current anaconda-personal installation
 
-To **purge** your currently installed anaconda-personal installation and **Re-initialize** it (example after a big corruption event)
+- To **purge** your currently installed anaconda-personal installation and **Re-initialize** it (example after a big corruption event)
 
-you need to remove the `anaconda3` folder in your `/home` directory and re-install from scratch.
+  you need to remove the `anaconda3` folder in your `/home` directory and re-install from scratch.
 
-**IMPORTANT :**  
+  `rm -rf ${HOME}/anaconda3/`
 
-This operation will **remove also all the virtual environments** that you have previously created, because they are stored in `${HOME}/anaconda3/envs`.
+  > **IMPORTANT :**  
+> This operation will **remove also all the virtual environments** that you have previously created (as they are stored in `${HOME}/anaconda3/envs`).
+>
+  > **Backing up the VEnvs** is possible - and advisable for important, work before purging - see paragraphs below **06, 07, 08** .  
 
-**backing these up** it is possible: see paragraphs below 06, 07, 08 .  
 
-`rm -rf ${HOME}/anaconda3/`
-
-- To Reinstall anaconda-personal, after the purging please follow the steps for the first-time setup at paragraph 02a above.
+- To **Reinstall** anaconda-personal, after the purging please follow the steps for the first-time setup at paragraph **02a** above.
 
 ### 03 : Workflow examples
 
