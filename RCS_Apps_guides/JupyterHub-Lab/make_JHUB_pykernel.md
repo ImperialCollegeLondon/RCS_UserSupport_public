@@ -46,26 +46,29 @@ what creates issues most of the time :
 
 ### example Workflow of a complex installation :
 
-1. compile the SW-list of tools needed:
+1. create a list of all the tools/SW needed for the project :  
 
-- netcdf4 (+ dependencies)
-- iris (+ dependencies)
-- matplotlib (+ dependencies)
-- hdf5 (+ dependencies)
---> all needs to be available via JHUB kernel (i.e. will need ipykernel)
+- `netcdf4` (+ dependencies)  
+- `iris` (+ dependencies)  
+- `matplotlib` (+ dependencies)  
+- `hdf5` (+ dependencies)  
 
-2. check the web for conflicting packages/dependencies etc.
-https://anaconda.org/conda-forge/<MY-WANTED-PKGNAME>/files
+--> all these needs to be available via JHUB kernel (i.e. will need ipykernel)
 
-3. confirm the list is relevant
-in this case netcdf4 and hdf5 were already pulled in by other tools so the final list is:
+2. check the web for conflicting packages/dependencies etc.  
 
-- matplotlib (+ dependencies)
-- iris (+ dependencies: including netcdf4)
-- ipykernel (+ dependencies)
+`https://anaconda.org/conda-forge/\<MY-WANTED-PKGNAME>\/files`  
 
-4. make an educated guess based on the dependencies and requirements of the packages, the order of installation of packages.
-a bad order may pull in older dependencies and conflict with newer ones of packages installed at a later stage.
+3. confirm the list is relevant:  
+
+in this case `netcdf4` and `hdf5` were already pulled in by other tools so the final list is:
+
+- `matplotlib` (+ dependencies)  
+- `iris` (+ dependencies: including netcdf4)  
+- `ipykernel` (+ dependencies)  
+
+4. make an educated guess (based on the dependencies and requirements of the packages), of the **order of installation of packages**.
+A "bad installation order" may pull in, older dependencies and making them conflicting with newer ones, of packages installed at a later stage.  
 
 > This is achieved with experience and trial and error;  
 > there is no "one-size-fits-all-guide/solution"
@@ -84,9 +87,12 @@ a bad order may pull in older dependencies and conflict with newer ones of packa
   python -m ipykernel install --user --name VenvName --display-name "name_displayed_in_JupyterNLH"
   ```
 
-  NOTE:  
-  in a previous user test case of the same installation  
-  the different order below, was returning ERRORS and failures.
+
+---
+
+#### CAVEATS  
+
+in a previous user test case of the same installation, the different order of packages below, was returning ERRORS and failures upon installation.  
 
   ```
   conda install ipykernel
@@ -94,6 +100,7 @@ a bad order may pull in older dependencies and conflict with newer ones of packa
   conda install matplotlib
   ```
 
+Iterating over steps 1. 2. 3. 4. above helped resolving the installation issues.  
 
 > As a rule of thumb, Please consider firstly trying installing the "more core/lower-level packages and dependencies", and only at the end, the "more frontend-ones".
 
