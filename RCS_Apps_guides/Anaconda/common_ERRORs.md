@@ -48,7 +48,7 @@ IMPORTANT: You may need to close and restart your shell after running 'conda ini
 
 3. Just use the commands below :)  
 
-  `conda source My_Venv` to "activate" the VEnv   
+  `source activate My_Venv` to "activate" the VEnv   
   and   
   `conda deactivate` to deactivate.
 

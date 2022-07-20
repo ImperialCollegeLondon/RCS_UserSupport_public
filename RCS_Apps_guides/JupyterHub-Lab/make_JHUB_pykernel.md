@@ -81,7 +81,7 @@ a bad order may pull in older dependencies and conflict with newer ones of packa
   conda install matplotlib
   conda install iris
   conda install ipykernel
-  python -m ipykernel install --user --new VenvName --display-name "name_displayed_in_JupyterNLH"
+  python -m ipykernel install --user --name VenvName --display-name "name_displayed_in_JupyterNLH"
   ```
 
   NOTE:  
