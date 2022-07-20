@@ -1,6 +1,18 @@
 
 # IC RCS guide to installing SW/packages using anaconda on the HPC
 
+**VERY IMPORTANT NOTE TO USERS !**
+
+The best way of using anaconda to install SW/packages and dependencies is :
+- with a terminal connection to the login nodes   
+- and by running the commands from the following guides.  
+
+
+**! ! ! -->  Please do NOT run any of the following commands via JupyterHub or Rstudio WebInterfaces <-- ! ! !**
+
+This includes, **neither** JupyterHub / Rstudio **WebApp terminals** **nor** the session **cells**.
+
+---
 
 ### 01 : Basic info, channels etc.
 
@@ -18,7 +30,8 @@ basic quick commands/examples to get started with Anaconda (the `conda` program)
 2. install `app_02` and its dependencies
 3. install `app_03` and its dependencies pulling packages from a specific channel
 
-please see the HPC prerequisites as you may need to run `anaconda-setup` first.  
+Please see the HPC prerequisites as you may need to run `anaconda-setup` first.  
+
 (see [workflows examples](/RCS_Apps_guides/Anaconda/03_workflow_examples.md) for extensive examples)
 
 ---
@@ -149,20 +162,50 @@ common reasons for wanting to delete a Conda environment are:
 - **Good practice**  
   It is a good practice to delete the conda environments you do not need or that are old or not actively maintained. (python packages and libraries gets very often updated and your VEnv and code may get outdated very quickly)
 
----
 
-1. `conda env remove -n <corrupted_env>`  
+> **IMPORTANT NOTEs :**  
+> the following deletion commands can take more than a few minutes to complete, especially if the VEnv to delete is big, complex, with many packages/dependencies etc.
+>
+> **Please be patient** while the deletion is executing and check-back the terminal at a later stage.
 
-  OR   `conda env remove --name <corrupted_env>`  
 
 
-2. `conda remove -n <corrupted_env> --all`  
 
-  OR  `conda remove --name <corrupted_env> --all`  
+1.  
 
-3. `conda env remove --prexif /path/to/MyEnv2remove`  
+`conda env remove -n <corrupted_env>`   
+OR  
+`conda remove -n <corrupted_env> --all`
 
-  OR  `conda env remove -p /path/to/MyEnv2remove`  
+example:
+
+```
+conda env list
+
+base
+myEnv_Test1
+myEnv_Test2
+myEnv_Test3
+
+
+conda env remove -n myEnv_Test1
+
+Remove all packages in environment ~/anaconda3/envs/myEnv_Test1
+```
+(PLEASE BE PATIENT!)  
+(checking a few minutes later on, when the command has completed)
+```
+conda env list
+
+base
+myEnv_Test2
+myEnv_Test3
+```
+
+
+
+2. `conda env remove -p /path/to/MyEnv2remove`  
+
 
   This last option implies knowledge of the path where the env is stored: (normally under `$HOME/anaconda3/envs/myenv_name` for our installation)
 
@@ -179,6 +222,15 @@ common reasons for wanting to delete a Conda environment are:
 >   conda info --envs
 >   rm -rf /path/2/anaconda/envs/corrupted_env
 >   ```
+
+
+
+`running conda env remove -help` will print out the help info for the conda env remove command.
+
+---
+
+
+
 
 
 ---
