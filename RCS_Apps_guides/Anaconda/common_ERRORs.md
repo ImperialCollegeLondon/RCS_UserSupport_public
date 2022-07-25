@@ -1,56 +1,14 @@
-### Common Errors
+### Common Errors and warnings
 
+on our custom installation you may experience (recurrently or not), the following errors and warnings :
 
-`CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.`  
+1.  Anaconda `conda activate Venv` **error** 
 
-to resolve this Error received when running `conda activate My_Venv` , you can check out the 3 options below;
+  `CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.` :  [ [info / Resolution](RCS_Apps_guides/Anaconda/assets/Conda_error_01.md) ]
 
-(I suggest using them in the "practical order" 3,2,1 not the logical one below.)
+2. Anaconda version **warning**
 
----
-
-1. Follow the instructions given at screen (it may not work sometimes)  
-
-```
-CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
-To initialize your shell, run
-
-    $ conda init <SHELL_NAME>
-
-Currently supported shells are:
-  - bash
-  - fish
-  - tcsh
-  - xonsh
-  - zsh
-  - powershell
-
-See 'conda init --help' for more information and options.
-
-IMPORTANT: You may need to close and restart your shell after running 'conda init'.
-```
-
-
-2.  manually patch your anaconda installation with this file:
-
-- download from this repo the file : [conda.sh](/RCS_Apps_guides/Anaconda/assets/files/conda.sh)  
-
-- save it in `~/anaconda3/etc/profile.d/`
-
-- add to your `.bashrc` (or `.bash_profile` file - depending on which one your shell is using) - the line:  
-
-  `source ~/anaconda3/etc/profile.d/conda.sh`
-
-- use normally the command  
-
-  `conda activate My_Venv`
-
-
-3. Just use the commands below :)  
-
-  `source activate My_Venv` to "activate" the VEnv   
-  and   
-  `conda deactivate` to deactivate.
+  `==> WARNING: A newer version of conda exists. <==` :  [ [info / Resolution](RCS_Apps_guides/Anaconda/assets/Conda_error_02.md) ]
 
 
 ---
