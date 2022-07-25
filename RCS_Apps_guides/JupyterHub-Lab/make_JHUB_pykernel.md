@@ -46,30 +46,29 @@ what creates issues most of the time :
 
 ### example Workflow of a complex installation :
 
-1. first assessment: create a list of all the tools/SW you believe it's needed for the project :  
+1. create a list of all the tools/SW needed for the project :  
 
 - `netcdf4` (+ dependencies)  
 - `iris` (+ dependencies)  
 - `matplotlib` (+ dependencies)  
 - `hdf5` (+ dependencies)  
 
---> all these needs to be available via JHUB kernel (i.e. this will need also `ipykernel`)
+--> all these needs to be available via JHUB kernel (i.e. will need ipykernel)
 
-2. check the tools on the list at point 1. surfing the web, for conflicting packages/dependencies etc.  
+2. check the web for conflicting packages/dependencies etc.  
 
 `https://anaconda.org/conda-forge/\<MY-WANTED-PKGNAME>\/files`  
 
-3. confirm the list at point 1. is still relevant:  
+3. confirm the list is relevant:  
 
-In this case `netcdf4` and `hdf5` were discovered at point 2. to be dependencies of other tools, so the final list is:
+in this case `netcdf4` and `hdf5` were already pulled in by other tools so the final list is:
 
 - `matplotlib` (+ dependencies)  
 - `iris` (+ dependencies: including netcdf4)  
 - `ipykernel` (+ dependencies)  
 
-4. make an educated guess (based on the dependencies and requirements of the packages), of the **order of installation of the packages**.
-
-A "bad installation order" may pull in, older dependencies first and making them conflicting with newer ones, of packages installed at a later step of your ordered list.    
+4. make an educated guess (based on the dependencies and requirements of the packages), of the **order of installation of packages**.
+A "bad installation order" may pull in, older dependencies and making them conflicting with newer ones, of packages installed at a later stage.  
 
 > This is achieved with experience and trial and error;  
 > there is no "one-size-fits-all-guide/solution"
@@ -105,3 +104,17 @@ Iterating over steps 1. 2. 3. 4. above helped resolving the installation issues.
 
 > As a rule of thumb, Please consider firstly trying installing the "more core/lower-level packages and dependencies", and only at the end, the "more frontend-ones".
 
+
+
+
+
+
+
+
+
+
+### REFS:
+
+
+https://ipython.readthedocs.io/en/stable/install/kernel_install.html
+<!-- https://stackoverflow.com/questions/28831854/how-do-i-add-python3-kernel-to-jupyter-ipython -->
