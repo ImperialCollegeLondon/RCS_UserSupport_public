@@ -1,37 +1,58 @@
-## Welcome to GitHub Pages
+## RCS_UserSupport_public
 
-You can use the [editor on GitHub](https://github.com/ImperialCollegeLondon/RCS_UserSupport_public/edit/GH-pages_web/docs/index.md) to maintain and preview the content for your website in Markdown files.
+collating bits and pieces for a more effective support to 21st century users  
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+Please refer to the following pages to read more about the main software and applications we provide  
+and how to obtain more info if you have access to Imperial College HPC Services.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+[check HPC Services Status](/Service_Status.md) - do this frequently and surely before submitting important jobs to avoid issues and frustration.
 
-```markdown
-Syntax highlighted code block
+book a [RCS CLINICS appointment](/RCS_admchorz/about_HPC_clinics.md) with a member of the Team for a one-to-one Support chat
 
-# Header 1
-## Header 2
-### Header 3
+How to Enroll for [starters or new users](/RCS_admchorz/HPC_newstarter.md)
 
-- Bulleted
-- List
+---
+You may always want to refer to the [RCS Main page](https://www.imperial.ac.uk/admin-services/ict/self-service/research-support/rcs/) for more info and updates.
 
-1. Numbered
-2. List
+#### HPC Basic Topics:
 
-**Bold** and _Italic_ and `Code` text
+[How to connect to the HPC Services](https://www.imperial.ac.uk/admin-services/ict/self-service/research-support/rcs/support/getting-started/using-ssh/)
 
-[Link](url) and ![Image](src)
-```
+[Training pages](https://www.imperial.ac.uk/admin-services/ict/self-service/research-support/rcs/training/)
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+[Training PDF -- v.2022](https://imperialcollegelondon.app.box.com/s/kwjxbd5bc87w296wo0m7fdwo9jct5vvs) -- kindly provided by: [Dr. Katerina Michalickova](https://www.imperial.ac.uk/collegedirectory/index.asp?PeopleID=215926)  
+[Training PDF -- v.2020](https://imperialcollegelondon.app.box.com/s/4ohpl9tr172anl7usfd1l4y9rqbi0dmw)  -- kindly provided by: [Dr. Katerina Michalickova](https://www.imperial.ac.uk/collegedirectory/index.asp?PeopleID=215926)  
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ImperialCollegeLondon/RCS_UserSupport_public/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+[RCS - HPC Applications](https://www.imperial.ac.uk/admin-services/ict/self-service/research-support/rcs/support/applications/)
 
-### Support or Contact
+- running jobs on the HPC, useful Sections  :  
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+  [Introductory guide to the systems](https://www.imperial.ac.uk/admin-services/ict/self-service/research-support/rcs/support/getting-started/)
+
+  - Running your first job
+  - Anatomy of a job script
+
+
+- [jobs sizing - LATEST guide !](https://wiki.imperial.ac.uk/pages/viewpage.action?spaceKey=HPC&title=New+Job+sizing+guidance)
+
+- [jobs sizing (OLD VERSION, reported here only for legacy reference)](https://www.imperial.ac.uk/admin-services/ict/self-service/research-support/rcs/computing/job-sizing-guidance/)
+
+---
+
+#### HPC more Advanced Topics:
+
+[Array jobs](https://www.imperial.ac.uk/admin-services/ict/self-service/research-support/rcs/computing/array-jobs/)
+
+[Job Dependencies](https://www.imperial.ac.uk/admin-services/ict/self-service/research-support/rcs/computing/array-jobs/job-dependencies/)
+
+[other training: (not sure if accessible to all user)](https://imperial.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=4d5cc349-00a0-4889-bc53-abc600f32b44)
+
+[RCS - Tips & Tricks](https://imperialcollegelondon.github.io/research-computing-tips/)
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+ALL CREDITS and KUDOS to all the respective authors, for the great and brilliant collection of material provided.
