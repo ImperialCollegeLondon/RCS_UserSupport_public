@@ -56,3 +56,6 @@ You may always want to refer to the [RCS Main page](https://www.imperial.ac.uk/a
 
 
 ALL CREDITS and KUDOS to all the respective authors, for the great and brilliant collection of material provided.
+
+
+{% include footer.html %}
