@@ -6,10 +6,26 @@
   <body>
     <p>All CREDITS and KUDOS go to all the respective authors, for the great and brilliant collection of material and documentation provided.</p>
     <br>
-    <form action="https://github.com/ImperialCollegeLondon/RCS_UserSupport_public/">
-      Check out the source of this Repo on <input class="btn" type="submit" name="button1" value="GitHub!">
-    </form>
 
+    <br>
+
+    <button class="btn js-toggle-dark-mode">Dark mode</button>
+
+    <script type="text/javascript">
+        const toggleDarkMode = document.querySelector('.js-toggle-dark-mode');
+        jtd.addEvent(toggleDarkMode, 'click', function(){
+          if (jtd.getTheme() === 'dark') {
+            jtd.setTheme('light');
+            toggleDarkMode.textContent = 'Dark mode';
+          } else {
+            jtd.setTheme('dark'); toggleDarkMode.textContent = 'Light mode';
+           }
+        });
+    </script>
+
+<br>
+Check out the source of this Repo on
+<a href="https://github.com/ImperialCollegeLondon/RCS_UserSupport_public/">GitHub</a>
 
   </body>
 </html>

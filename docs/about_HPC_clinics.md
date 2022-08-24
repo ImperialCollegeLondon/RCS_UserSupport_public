@@ -1,5 +1,3 @@
-{% include header.html %}
-
 ## RCS HPC Clinics
 
 with reference to the HPC / RCS clinics  
