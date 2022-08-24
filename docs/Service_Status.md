@@ -1,11 +1,12 @@
 
 
 
-# Check the Status of HPC Services
+## HPC Services Status  
 
-As at times data loss may occur due to File Systems outages and/or Hardware issues.
 
-We invite (and strongly advise) users to **check the Status of the HPC Services**  especially :  
+Despite the Team being busy keeping incidents at a minimum, at times data loss may occur due to File System's outages and/or possible Hardware issues.  
+
+We invite and advise users to **check often the Status of the HPC Services**  especially  in the following situations :  
 
 - before **running important or long jobs/workflows** (or anything that could be impacted by Systems downtime - either planned or unexpected.  
 
@@ -14,7 +15,11 @@ We invite (and strongly advise) users to **check the Status of the HPC Services*
 
 The following page provides a systems status overview :
 
-**IC_VPN or On-Campus-Network** --> [Service Status Page](https://selfservice.rcs.imperial.ac.uk/service-status)
+[ **IC_VPN** or **On-Campus Network** ] --> [Service Status Page](https://selfservice.rcs.imperial.ac.uk/service-status)
+
+
+---
+
 
 NOTES:
 
@@ -24,3 +29,8 @@ NOTES:
 - f the page loads, you should be able to keep an eye on the status of the services provided.
 
 - at times Status messages may bear a slightly outdated timestamp or may be out off synch, we strive to keep this page as much updated as possible, so please bear with us.   
+
+
+---
+
+{% include footer.html %}

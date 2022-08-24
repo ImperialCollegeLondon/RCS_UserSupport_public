@@ -38,7 +38,10 @@ Please do not hesitate to write us back should you have any more doubts or queri
 
 You can contact us using the [IC main Website - RCS HELP PAGE](https://www.imperial.ac.uk/admin-services/ict/self-service/research-support/rcs/support/help/) and by picking the **correct issue / request sub-category** please.
 
-We warmly thank you for your time, patience, help and understanding.
 
-Best Regards  
-_The RCS-Support Team_
+_The RCS Tech Support Team_ kindly thank you for your time, patience, help and understanding.
+
+
+---
+
+{% include footer.html %}
