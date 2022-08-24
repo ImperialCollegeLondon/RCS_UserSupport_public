@@ -1,4 +1,4 @@
-## RCS_UserSupport_public
+## RCS User Support public
 
 collating bits and pieces for a more effective support to 21st century users  
 
@@ -8,14 +8,14 @@ and how to obtain more info if you have access to Imperial College HPC Services.
 
 [check HPC Services Status](/Service_Status.md) - do this frequently and surely before submitting important jobs to avoid issues and frustration.
 
-book a [RCS CLINICS appointment](/RCS_admchorz/about_HPC_clinics.md) with a member of the Team for a one-to-one Support chat
+book a [RCS CLINICS appointment](/about_HPC_clinics.md) with a member of the Team for a one-to-one Support chat
 
 How to Enroll for [starters or new users](/RCS_admchorz/HPC_newstarter.md)
 
+Please always refer back to the [RCS Main page](https://www.imperial.ac.uk/admin-services/ict/self-service/research-support/rcs/) for more info and updates.
 ---
-You may always want to refer to the [RCS Main page](https://www.imperial.ac.uk/admin-services/ict/self-service/research-support/rcs/) for more info and updates.
 
-#### HPC Basic Topics:
+## HPC Basic Topics
 
 [How to connect to the HPC Services](https://www.imperial.ac.uk/admin-services/ict/self-service/research-support/rcs/support/getting-started/using-ssh/)
 
@@ -41,15 +41,15 @@ You may always want to refer to the [RCS Main page](https://www.imperial.ac.uk/a
 
 ---
 
-#### HPC more Advanced Topics:
+## HPC more Advanced Topics:
 
 [Array jobs](https://www.imperial.ac.uk/admin-services/ict/self-service/research-support/rcs/computing/array-jobs/)
 
 [Job Dependencies](https://www.imperial.ac.uk/admin-services/ict/self-service/research-support/rcs/computing/array-jobs/job-dependencies/)
 
-[other training: (not sure if accessible to all user)](https://imperial.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=4d5cc349-00a0-4889-bc53-abc600f32b44)
+[other training: (may need login)](https://imperial.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=4d5cc349-00a0-4889-bc53-abc600f32b44)
 
-[RCS - Tips & Tricks](https://imperialcollegelondon.github.io/research-computing-tips/)
+[other RCS - Tips & Tricks](https://imperialcollegelondon.github.io/research-computing-tips/)
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 

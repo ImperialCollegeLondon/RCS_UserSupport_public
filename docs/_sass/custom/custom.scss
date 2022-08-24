@@ -1,0 +1,12 @@
+@media (min-width: 66.5rem) {
+  .side-bar {
+    width: calc((70% - 1064px) / 2 + 264px);
+    min-width: 264px;
+  }
+}
+
+@media (min-width: 66.5rem) {
+  .main {
+    margin-left: calc((70% - 1064px) / 2 + 264px);
+  }
+}

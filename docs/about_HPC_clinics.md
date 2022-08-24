@@ -1,5 +1,5 @@
 
-## IC - RCS (Research Computing Support) HPC Clinics
+## RCS HPC Clinics
 
 with reference to the HPC / RCS clinics  
 
