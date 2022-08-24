@@ -1,12 +1,13 @@
 ---
+remote_theme: just-the-docs/just-the-docs
 
 title: "RCS UserSupport (public)"
+
 tagline: "collating bits and pieces for a more effective support to 21st century users"  # subtitle
 
 # Set a path/url to a logo that will be displayed instead of the title
-logo: "/assets/images/IC_logo.svg"
+## logo: "/assets/images/IC_logo.svg"
 
-remote_theme: just-the-docs/just-the-docs
 
 # Enable or disable the site search
 # Supports true (default) or false
