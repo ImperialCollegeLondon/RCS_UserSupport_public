@@ -3,8 +3,10 @@
     <meta charset="utf-8">
 <script>
   document.cookie = "isDark=false";
-  
-    if (document.cookie) {
+
+  let checkCk = getCookie("isDark");
+
+    if (checkCk) {
       jtd.setTheme('dark');
     } else {
       jtd.setTheme('light');
