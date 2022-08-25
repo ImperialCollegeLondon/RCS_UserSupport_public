@@ -2,15 +2,23 @@
   <head>
     <meta charset="utf-8">
 <script>
-  document.cookie = "isDark=false";
+  // document.cookie = "isDark=false";
 
-  let checkCk = getCookie("isDark");
-
-    if (checkCk) {
+// function getCookieVal() {
+  if (document.cookie.split(';').some((item) => item.includes("isDark=true"))) {
       jtd.setTheme('dark');
-    } else {
-      jtd.setTheme('light');
-    }
+  } else {
+    jtd.setTheme('light');
+  };
+
+// }
+
+  // let checkCk = getCookieVal("isDark");
+  //
+  //   if (checkCk) {
+  //
+  //   } else {
+  //   }
 
 </script>
   </head>
