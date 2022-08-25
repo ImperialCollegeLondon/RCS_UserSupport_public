@@ -11,23 +11,27 @@
 
     <script type="text/javascript">
       // document.cookie = jtd.getTheme();
+      // document.cookie = "isDark=false";
 
         const toggleDarkMode = document.querySelector('.js-toggle-dark-mode');
+
         jtd.addEvent(toggleDarkMode, 'click', function(){
           if (jtd.getTheme() === 'dark') {
             jtd.setTheme('light');
             toggleDarkMode.textContent = 'Dark mode';
+            document.cookie = "isDark=false";
           } else {
-            jtd.setTheme('dark'); toggleDarkMode.textContent = 'Light mode';
+            jtd.setTheme('dark');
+            toggleDarkMode.textContent = 'Light mode';
             document.cookie = "isDark=true";
            }
         });
 
-        if (document.cookie) {
-          jtd.setTheme('dark');
-        } else {
-          jtd.setTheme('light');
-        }
+        // if (document.cookie) {
+        //   jtd.setTheme('dark');
+        // } else {
+        //   jtd.setTheme('light');
+        // }
 
     </script>
 <br>

@@ -54,5 +54,5 @@ Please always refer back to the [RCS Main page](https://www.imperial.ac.uk/admin
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 
-
+{% include header.html %}
 {% include footer.html %}

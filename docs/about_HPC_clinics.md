@@ -43,4 +43,5 @@ _The RCS Tech Support Team_ kindly thank you for your time, patience, help and u
 
 ---
 
+{% include header.html %}
 {% include footer.html %}
