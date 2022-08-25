@@ -7,11 +7,11 @@
     <p>All CREDITS and KUDOS go to all the respective authors, for the great and brilliant collection of material and documentation provided.</p>
     <br>
 
-    <br>
-
     <button class="btn js-toggle-dark-mode">Dark mode</button>
 
     <script type="text/javascript">
+      // document.cookie = jtd.getTheme();
+
         const toggleDarkMode = document.querySelector('.js-toggle-dark-mode');
         jtd.addEvent(toggleDarkMode, 'click', function(){
           if (jtd.getTheme() === 'dark') {
@@ -19,10 +19,18 @@
             toggleDarkMode.textContent = 'Dark mode';
           } else {
             jtd.setTheme('dark'); toggleDarkMode.textContent = 'Light mode';
+            document.cookie = "isDark=true";
            }
         });
-    </script>
 
+        if (document.cookie) {
+          jtd.setTheme('dark');
+        } else {
+          jtd.setTheme('light');
+        }
+
+    </script>
+<br>
 <br>
 Check out the source of this Repo on
 <a href="https://github.com/ImperialCollegeLondon/RCS_UserSupport_public/">GitHub</a>
