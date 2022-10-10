@@ -17,6 +17,12 @@ You may always want to refer to the [RCS Main page](https://www.imperial.ac.uk/a
 
 #### HPC Basic Topics:
 
+
+[RCS HELP page links](https://htmlpreview.github.io/?https://github.com/ImperialCollegeLondon/RCS_UserSupport_public/blob/main/RCS_admchorz/EX_help_page_edt.html)
+
+---
+
+
 [How to connect to the HPC Services](https://www.imperial.ac.uk/admin-services/ict/self-service/research-support/rcs/support/getting-started/using-ssh/)
 
 [Training pages](https://www.imperial.ac.uk/admin-services/ict/self-service/research-support/rcs/training/)
