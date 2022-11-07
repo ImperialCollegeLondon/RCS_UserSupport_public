@@ -1,7 +1,8 @@
-## RCS_UserSupport_public
+## RCS UserSupport public
 
 collating bits and pieces for a more effective support to 21st century users  
 
+Please make sure to Read the [DISCLAIMER](/DISCLAIMER.md) that comes with this repo.
 
 Please refer to the following pages to read more about the main software and applications we provide  
 and how to obtain more info if you have access to Imperial College HPC Services.
