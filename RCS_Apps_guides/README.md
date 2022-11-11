@@ -6,15 +6,31 @@ NOTES :
   - most likely SW comes in various versions via module-files. (old SW-stack, new SW-stack, easybuild SW-stack)
 
 
-- all SW installation requests need to go through [RCS - Help](https://www.imperial.ac.uk/admin-services/ict/self-service/research-support/rcs/support/help/) --> requests to install software in the HPC systems
+- all SW installation requests need to go through [RCS - Help](https://www.imperial.ac.uk/admin-services/ict/self-service/research-support/rcs/get-support/contact-us/) --> requests to install software in the HPC systems
 
 
 Refs:   
 
-[IC / ICT website : RCS Applications Link 1](https://www.imperial.ac.uk/admin-services/ict/self-service/research-support/rcs/support/getting-started/applications/)   
-[IC / ICT website : RCS Applications Link 2](https://www.imperial.ac.uk/admin-services/ict/self-service/research-support/rcs/support/applications/)  
+[RCS HPC wiki: getting started](https://wiki.imperial.ac.uk/display/HPC/Getting+started)     
+[RCS HPC wiki: applications](https://wiki.imperial.ac.uk/display/HPC/Applications)    
 
 
+#### currently HPC provided module files
+
+- production grade module files
+
+```
+module load tools/prod
+```
+
+- development grade module files (may break)
+
+```
+module load tools/dev
+```
+
+
+---
 
 ### Anaconda
 
@@ -52,12 +68,17 @@ $ module add buildenv/default-foss-2021a
 
 ---
 
-#### NOTES
-Please remember that you will need to incorporate the above commands (their "slimmed down versions" or similar) into your **job-scripts** ;
-running software or compilations on **login nodes** is NOT allowed and available _ONLY_ in some particular cases.
+#### NOTES  
+
+Please remember that you will need to incorporate the above commands (their "slimmed down versions" or similar) into your **job-scripts** ;  
+
+running software or compilations on **login nodes** is NOT allowed and available _ONLY_ in some particular cases.  
+
 (i.e. tasks that do NOT require intensive calculations and/or extensive usage of the underlying HW resources of the node, as well as tasks that will NOT run for a prolonged time - ideally not more than 10-30 minutes).  
 
 **Long running compilation tasks, executables and programs** will be NOT allowed to run on login nodes and once spotted, instantly killed both automatically by the Systems, and manually by the system administrators, resulting in **users' loss of time and work** and possibly a **penalty** for future job runs when correctly submitting to the queues (batch system).  
+
+
 
 
 

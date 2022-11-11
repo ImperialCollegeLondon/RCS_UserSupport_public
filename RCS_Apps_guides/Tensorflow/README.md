@@ -1,6 +1,6 @@
 
 
-Please Review first: [RCS main Website: Tensorflow](https://www.imperial.ac.uk/admin-services/ict/self-service/research-support/rcs/support/applications/tensorflow/)  
+Please Review first: [RCS main Website: Tensorflow](https://wiki.imperial.ac.uk/display/HPC/Applications)  
 
 and integrate with the following:
 
@@ -12,13 +12,44 @@ and integrate with the following:
 Using the newest `cuda module` is recommended, as these are known to be compatible with the installed drivers.
 
 
-example:  
-for a full list of available cuda-drivers/libraries module versions try:
+
+For a full list of available cuda-drivers/libraries module versions try to check the following below.
+
+**IMPORTANT NOTE :**
+Some of the older module files (before 2022) are outdated, not maintained not fully or correctly installed.
+it is advisable to use the latest provided ones whenever these are available or build your own anaconda environment with these tools/libraries/middleware included.
+
+
+##### 2022 HPC modules SW stack:
+
+```
+module load tools/prod
+module avail CUDA
+module avail cuDNN
+module avail TensorFlow
+```
+
+examples:  
+```
+module load tools/prod
+module load CUDA/11.3.1
+module load cuDNN/8.2.1.32-CUDA-11.3.1
+```
+
+
+##### 2021 (and earlier) HPC modules SW stack:
 
 ```
 module avail cuda
 module avail cudnn
 ```   
+
+examples:  
+```
+module load cuda/11.4.2
+module load cudnn/8.2.4
+```
+
 
 ---
 
@@ -80,3 +111,8 @@ See this link [TF docs](https://www.tensorflow.org/guide/gpu#limiting_gpu_memory
 
 Refs:
 
+
+https://anaconda.org/conda-forge/cudatoolkit    
+https://anaconda.org/anaconda/cudnn  
+https://anaconda.org/conda-forge/cudatoolkit  
+https://anaconda.org/search?q=cudnn  
