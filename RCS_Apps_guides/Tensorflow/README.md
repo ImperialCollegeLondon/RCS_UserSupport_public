@@ -1,8 +1,11 @@
 
+## TensorFlow  
 
-Please Review first: [RCS main Website: Tensorflow](https://wiki.imperial.ac.uk/display/HPC/Applications)  
+Please make sure always to firstly Review : [RCS main Website: Tensorflow](https://wiki.imperial.ac.uk/display/HPC/Applications)  for the latest updates and guidance,  
 
-and integrate with the following:
+and integrate with the following notes and guides.
+
+---
 
 **NOTES :**
 
@@ -15,12 +18,13 @@ Using the newest `cuda module` is recommended, as these are known to be compatib
 
 For a full list of available cuda-drivers/libraries module versions try to check the following below.
 
-**IMPORTANT NOTE :**
-Some of the older module files (before 2022) are outdated, not maintained not fully or correctly installed.
-it is advisable to use the latest provided ones whenever these are available or build your own anaconda environment with these tools/libraries/middleware included.
+**IMPORTANT NOTE :**  
+
+Some of the older module files (before 2022) are outdated, not maintained not fully or correctly installed.  
+it is advisable to use the latest provided ones whenever these are available or build your own anaconda environment with these tools/libraries/middleware included.  
 
 
-##### 2022 HPC modules SW stack:
+### 2022 HPC modules SW stack:
 
 ```
 module load tools/prod
@@ -36,8 +40,9 @@ module load CUDA/11.3.1
 module load cuDNN/8.2.1.32-CUDA-11.3.1
 ```
 
+---
 
-##### 2021 (and earlier) HPC modules SW stack:
+### 2021 (and earlier) HPC modules SW stack:
 
 ```
 module avail cuda
