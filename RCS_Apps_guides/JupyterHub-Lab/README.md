@@ -115,6 +115,7 @@ not from WINDOWS editors/CLI, otherwise strange characters will be added, breaki
   DDIR=${HOME}/.local/share/jupyter
   cd $DDIR && mv nbsignatures.db nbsignatures.db._${TSTP}.bak
   rm -f ~/.ipython/profile_default/history_sqlite 2>/dev/null
+  rm -f ~/.ipython/profile_default/history.sqlite 2>/dev/null ## (seen appearing after Oct22 - patch)
   rm -f ~/.ipython/profile_default/security/nbsignatures.db 2>/dev/null
   echo DONE
   ```
